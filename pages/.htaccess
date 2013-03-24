@@ -1,0 +1,28 @@
+# << URLs Amigaveis
+# Números baixos, são paginas abertas
+# Numeros acima de 100 exigem login
+#
+# 
+#
+#
+#
+#
+#
+#
+#
+#
+##########################################################################
+RewriteEngine on
+
+#paginas que serão enviadas via ajax
+
+RewriteRule ^inicio/?$ handle.php?zs_menu=1        [L]
+RewriteRule ^meusprodutos/?$ handle.php?zs_menu=2  [L]
+RewriteRule ^lote/?$ handle.php?zs_menu=3          [L]
+RewriteRule ^insights/?$ handle.php?zs_menu=4      [L]
+RewriteRule ^perguntas/?$ handle.php?zs_menu=5     [L]
+#RewriteRule ^(.*)/?$ handle.php?zs_menu=6          [L]
+
+# >> URLs Amigaveis
+                                  
+
